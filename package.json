@@ -1,9 +1,9 @@
 {
   "name": "redux-hero",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "src",
     "dist"
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/varHarrie/redux-hero.git"
+    "url": "git+https://github.com/ecfexorg/redux-hero.git"
   },
   "author": "varHarrie",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/varHarrie/redux-hero/issues"
+    "url": "https://github.com/ecfexorg/redux-hero/issues"
   },
-  "homepage": "https://github.com/varHarrie/redux-hero#readme",
+  "homepage": "https://github.com/ecfexorg/redux-hero#readme",
   "devDependencies": {
     "@types/redux": "^3.6.0",
     "redux": "^3.7.2",
