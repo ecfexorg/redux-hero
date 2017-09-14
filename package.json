@@ -23,9 +23,12 @@
   },
   "homepage": "https://github.com/ecfexorg/redux-hero#readme",
   "devDependencies": {
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
     "@types/redux": "^3.6.0",
-    "redux": "^3.7.2",
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "@types/redux-thunk": "^2.1.0",
+    "redux-thunk": "^2.2.0"
   }
 }

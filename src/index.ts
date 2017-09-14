@@ -1,3 +1,11 @@
-export {default as createThunkMiddleware} from './createThunkMiddleware'
+import * as Redux from 'redux'
+
+export {default as createThunkMiddleware} from 'redux-thunk'
 export {default as createReducer} from './createReducer'
-export {Dispatch, ThunkAction} from './types'
+
+export interface Dispatch<S = any> extends Redux.Dispatch<S> {
+  <R, E>(asyncAction: ThunkAction<R, S, E>): R
+}
+
+export type ThunkAction<R = any, S = any, E = any> =
+  (dispatch: Dispatch<S>, getState: () => S, extraArgument: E) => R
