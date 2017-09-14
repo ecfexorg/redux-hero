@@ -10,3 +10,7 @@ export interface Dispatch<S = any> extends Redux.Dispatch<S> {
 export interface ThunkAction <R = any, S = any, E = any> {
   (dispatch: Dispatch<S>, getState: () => S, extraArgument: E): R
 }
+
+export interface DispatchProp<S = any> {
+  dispatch: Dispatch<S>
+}
